@@ -3,14 +3,14 @@
   "description": "A Privacy by Design GDPR Class for PHP",
   "type": "library",
   "keywords": ["gdpr","privacy"],
-  "homepage": "https://demo.q48.de",
+  "homepage": "https://github.com/q48academy/gdpr-privacy-by-design",
   "version": "0.1",
   "license": "MIT",
   "authors": [
     {
       "name": "Pascal Fantou",
       "email": "gdpr19@fantou.net",
-      "homepage": "https://q48.de",
+      "homepage": "https://demo.q48.de",
       "role": "Developer"
     }
   ],

@@ -59,7 +59,7 @@ If logged locally,  all logfiles are stored in daily directories and are deleted
 
 # Installation
 
-    composer require 
+    composer require q48academy/gdpr-privacy-by-design 
     
 # Usage
 
