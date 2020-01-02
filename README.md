@@ -1,4 +1,4 @@
-# GDPR with Pivacy by Design in mind
+# GDPR with Privacy by Design in mind
 
 ## GDPR / DSGVO Class in PHP
 
