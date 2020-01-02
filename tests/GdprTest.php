@@ -3,6 +3,9 @@
 use PHPUnit\Framework\TestCase;
 use Q48academy\GDPR\Gdpr;
 
+/**
+ * @backupGlobals enabled
+ */
 class GdprTest extends TestCase
 {
 	// test Data UserAgents
