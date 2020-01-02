@@ -1,6 +1,6 @@
 {
-  "name": "q48academy/gdpr",
-  "description": "A Privacy by design GDPR Class for PHP",
+  "name": "q48academy/gdpr-privacy-by-design",
+  "description": "A Privacy by Design GDPR Class for PHP",
   "type": "library",
   "keywords": ["gdpr","privacy"],
   "homepage": "https://demo.q48.de",
@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Q48academy\\GDPR\\": "src/"
+      "Q48academy\\Gdpr\\": "src/"
     }
   },
   "require" : {
