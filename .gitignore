@@ -1,6 +1,6 @@
 # Gdpr
-/etc/*
-!/etc/keys/.gitignore
+/etc/.keys/*
+!/etc/.keys/.gitignore
 
 /var/log/*
 !/var/log/.gitignore
