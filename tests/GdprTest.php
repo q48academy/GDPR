@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Q48academy\GDPR\Gdpr;
+use Q48academy\Gdpr\Gdpr;
 
 /**
  * @backupGlobals enabled
