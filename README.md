@@ -153,6 +153,26 @@ Bots are not anonymized.
     $gdpr = new Gdpr();
     $anonIp = $gdpr->getAnonUserAgent();
 
+Settings can be set via ENV 
+
+    GDPR_DIR_KEYS=/etc/.keys
+    GDPR_DIR_LOGS=/var/log/gdpr
+
+The class can also be initiated with two Settings
+
+- keyDir
+- logDir
+
+
+    $gdpr = new Gdpr('/etc/.keys','/var/log/gdpr');
+
+#### Installation Verification
+
+    $gdpr = new Gdpr();
+    $verifyLog = $gdpr->verify();
+    var_dump($verifyLog);
+
+
 ### Special Options
 
 - 'rawUserAgent' : The User Agent should not be taken from the `$_SERVER` Array but is given in raw. The information will be stored in 'index' i.e. `HTTP_USER_AGENT`
