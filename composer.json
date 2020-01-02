@@ -1,0 +1,31 @@
+{
+  "name": "q48academy/gdpr",
+  "description": "A Privacy by design GDPR Class for PHP",
+  "type": "library",
+  "keywords": ["gdpr","privacy"],
+  "homepage": "https://demo.q48.de",
+  "version": "0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pascal Fantou",
+      "email": "gdpr19@fantou.net",
+      "homepage": "https://q48.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Q48academy\\GDPR\\": "src/"
+    }
+  },
+  "require" : {
+    "php" : "^7.2",
+    "ext-sodium": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  }
+}
